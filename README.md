@@ -17,6 +17,6 @@ Lets start from the basics...
 -> Reinforcement
 
 The building blocks of Machine Learinng can be categorised as:
-- Modelling -- It includes data 
+- Representation -- It includes modelling of data 
 - Evaluation -- It includes the function that needs to be evaludated on the basis of provided input and output.
 - Optimisation -- It includes the algorithms that optimise the evaluated function.
