@@ -36,6 +36,8 @@ Four ingredients for training the ML Algorithm are:
 -> Model []
 -> Objective Function [It estimates how the correct the model output are] => Comprises of LOSS Function (Mainly for Supervised Learning) or REWARD function (Reinforcement)
 NOTE: Objective function is not related to model and is used for every type of algorithm irrespective of its linearity.
+
+Key Point: Any function that is higher ofr Worse Results and Lower for Better Results can be called as LOSS FUNCTION.
 -> Optimisation Algorithm [It consist the mechnaics through which we vary the parameters[weights and biases, not the logic] of the model to optimize Objective function].
 
 Machine Learning is an iterative process.
@@ -46,5 +48,7 @@ TRAINING the model is essentially a trial-and-error process, but each consequent
 *******************SUPERVISED LEARNING*************************
 It can be categorised as:-
 =>Classification -> provide ouputs which are categories [Objective function for this type of learning is called CROSS - ENTROPY]
-=>Regression -> provide outputs which are numerical type i.e Continuous numbers[Objective function for this type of learning is called L2-norm - Least Square Error]
+=>Regression -> provide outputs which are numerical type i.e Continuous numbers[Objective function for this type of learning is called L2-norm - Least Square Error].
+
+Optimisation Algorithm for Linear Model is Gradient Descent
 
