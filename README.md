@@ -28,7 +28,7 @@ The building blocks of Machine Learinng can be categorised as:
 
 Key Point: - Machine Learning is the model that gives a certain output for certain set inputs.
 So Mathematically, We have input [x] and output [y] also. What we need to find is the function that gives correct output for set of some inputs.
-i.e 			y = f(x)  where f() is the Machine learning algorithm which is trained.
+i.e 			y = h(x)  where h() is the Machine learning algorithm which is trained.
 				y = ax + b where a (coefficient) is known as Weight and b (constant) is known as bias [Linear Model]
 Point to note:  number of weights depends on both input and output. i.e if there are m outputs and k inputs then weights are m*k [There is different for each input and each equation]
 				number of bias is equal to number of outputs i.e if number of outputs is m then biases are also m.
@@ -54,6 +54,6 @@ TRAINING the model is essentially a trial-and-error process, but each consequent
 It can be categorised as:-
 =>Classification -> provide ouputs which are categories [Objective function for this type of learning is called CROSS - ENTROPY]
 =>Regression -> provide outputs which are numerical type i.e Continuous numbers[Objective function for this type of learning is called L2-norm - Least Square Error].
-
+				L2-norm is used to minimize the squared difference between expected output and actual output. i.e [h(x) - y]^2 should be minimum for m number of training examples.
 Optimisation Algorithm for Linear Model is Gradient Descent
 
