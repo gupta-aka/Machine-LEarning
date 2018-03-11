@@ -11,6 +11,11 @@ They all are the examples of Mahcine Learning which are evolving daya by day as 
 Now what I am more keen about is HOW?
 HOW can we make our machines learn. How can we create algorithms for Machine Learning.
 
+A Computer program is said to LEARN from Experience E with respect to some task Tand some performance measure P, if its performance on T, as measured by P, improves with experience E.
+for example -> Task T can be [Classifying emails as spam or not spam]
+			   Experience E can be [Watching user labelling emails as spam or not spam]
+			   Performance P can be [The number emails correctly classified as spam/not spam]
+
 Lets start from the basics...
 -> Supervised Learning [When both input and output are known.]
 -> Unsupervised Learning [Only the input is known. (logic or depepndence in the input is to be found) Clustering is the example]
