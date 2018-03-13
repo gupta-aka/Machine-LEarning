@@ -53,7 +53,7 @@ TRAINING the model is essentially a trial-and-error process, but each consequent
 *******************SUPERVISED LEARNING*************************
 It can be categorised as:-
 =>Classification -> provide ouputs which are categories [Objective function for this type of learning is called CROSS - ENTROPY]
-=>Regression -> provide outputs which are numerical type i.e Continuous numbers[Objective function for this type of learning is called L2-norm - Least Square Error].
+=>Regression -> provide outputs which are numerical type i.e Continuous numbers[Objective function for this type of learning is called L2-norm - Least Square Error]. This is called  COST FUNCTION. 
 				L2-norm is used to minimize the squared difference between expected output and actual output. i.e [h(x) - y]^2 should be minimum for m number of training examples.
 Optimisation Algorithm for Linear Model is Gradient Descent
 
